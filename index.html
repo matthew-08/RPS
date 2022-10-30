@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Sacramento&family=Silkscreen&display=swap');
+        </style>
+</head>
+<body>
+    <div class="headerWrapper">
+        <h1>Rock</h1>
+        <div class="imgContainer">
+        <img class = "headerImage" src="img/rock.png">
+        </div>
+        <h1>Paper</h1>
+        <div class="imgContainer">
+        <img class = "headerImage" src="img/paper.png">
+        </div>
+        <h1>Scissors</h1>
+        <div class="imgContainer">
+        <img class = "headerImage" src="img/scissors.png">
+        </div>
+        </div>
+    <div class="centerWrapper">
+        <div class="center">
+            <div class="header">
+                <div class="headerScores">
+                    <h1 class = "h1">You:
+                        <div id="yourPoints"> 0 </div>
+                    </h1>
+                    <h1 class = "h1">Computer:   
+                        <div id="computerPoints"> 0 </div>
+                    </h1>
+                </div>
+            </div>
+            <div class="optionsWrapper">
+                <div class="computerChoice"> <img id = "cImage" src="img/question-mark.png"> </div>    
+                <div class="choiceWrapper">
+                    <button class="choice rock"><img src="img/rock.png"></button>
+                    <button class="choice paper"><img src="img/paper.png"></button>
+                    <button class="choice scissors"><img src="img/scissors.png"></button>    
+                </div>
+                <div class="bottomCenterText">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+<script src="js.js"></script>    
+</body>
+</html>
